@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GoFunctions/GoFunctions.iml" filepath="$PROJECT_DIR$/GoFunctions/GoFunctions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GoLogic/GoLogic.iml" filepath="$PROJECT_DIR$/GoLogic/GoLogic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GoPackages/GoPackages.iml" filepath="$PROJECT_DIR$/GoPackages/GoPackages.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GoRountines/GoRountines.iml" filepath="$PROJECT_DIR$/GoRountines/GoRountines.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GoVariables/GoVariables.iml" filepath="$PROJECT_DIR$/GoVariables/GoVariables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TheGoDemo.iml" filepath="$PROJECT_DIR$/TheGoDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello/hello.iml" filepath="$PROJECT_DIR$/hello/hello.iml" />
+    </modules>
+  </component>
+</project>

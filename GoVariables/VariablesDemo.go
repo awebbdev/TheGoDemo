@@ -9,11 +9,13 @@ func main(){
 	var age int //variable declaration
 	var initage int = 35 // initialized variable
 	var inferedage = 30 //variable type inference
+	shorthandage := 62
 
 	age = 15  //variable assignment
 	fmt.Println("My age is", age)
-	fmt.Println("His age is", initage)
+	fmt.Println("Their age is", initage)
 	fmt.Println("Infered age is", inferedage)
+	fmt.Println("Shrthand age is: ", shorthandage)
 
 	var watts, kg int = 350, 85 //multiple variable declaration
 

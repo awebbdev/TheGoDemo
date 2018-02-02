@@ -45,7 +45,7 @@ func main(){
 
 	p = &b         // point to b
 	*p = *p / 37   // divide b through the pointer
-	fmt.Println(b) // see the new value of j
+	fmt.Println(b) // see the new value of b
 
 	//Numeric Types
 	//int, int32, uint32, float32, complex64

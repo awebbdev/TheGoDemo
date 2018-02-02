@@ -9,13 +9,16 @@ func main(){
 	var age int //variable declaration
 	var initage int = 35 // initialized variable
 	var inferedage = 30 //variable type inference
-	shorthandage := 62
+	shorthandage := 62 //shorthand variable declaration
+
+	//age = "56"  //Strict typing cannot change from int to string
+	//inferedage = false
 
 	age = 15  //variable assignment
 	fmt.Println("My age is", age)
 	fmt.Println("Their age is", initage)
 	fmt.Println("Infered age is", inferedage)
-	fmt.Println("Shrthand age is: ", shorthandage)
+	fmt.Println("Shorthand age is: ", shorthandage)
 
 	var watts, kg int = 350, 85 //multiple variable declaration
 
@@ -31,6 +34,18 @@ func main(){
 	fmt.Println("x is", x, " y is", y)
 
 	//x, y := 30, 40 //error no new variables
+
+	//pointers
+	a, b := 42, 2701
+
+	p := &a         // point to a
+	fmt.Println(*p) // read a through the pointer
+	*p = 21         // set a through the pointer
+	fmt.Println(a)  // see the new value of a
+
+	p = &b         // point to b
+	*p = *p / 37   // divide b through the pointer
+	fmt.Println(b) // see the new value of j
 
 	//Numeric Types
 	//int, int32, uint32, float32, complex64
